@@ -26,26 +26,33 @@ body {
   
   nav a {
     text-decoration: none;
-    color: #e90b0b;
+    color: #fff;
   }
   
   main {
     padding: 20px;
   }
   
-  .product {
+  .creation {
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 20px;
   }
   
-  .product img {
+  .creation img {
     max-width: 100%;
+  }
+  
+  /* Add some additional styling to make the layout more visually appealing */
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
   }
   
   footer {
     background-color: #333;
-    color: #d61111;
+    color: #fff;
     text-align: center;
     padding: 10px;
   }
